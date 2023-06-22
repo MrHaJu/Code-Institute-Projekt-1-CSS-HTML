@@ -1,2 +1,2 @@
-# CI-Projekt-1
+# Code Institute Projekt 1 HTML and CSS
  
