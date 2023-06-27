@@ -16,9 +16,60 @@
         text-align: center;
     }
     #centerframe {
-    display: block;
-    margin: auto;
+    display: inline-block;
+    margin: 0 auto;
     }
+    .flip-card {
+        background-color: transparent;
+        width: 300px;
+        height: 200px;
+        color:  #ffffff;
+        perspective: 1000px; /* Remove this if you don't want the 3D effect */
+        margin: 0 auto;
+
+      }
+      
+      /* This container is needed to position the front and back side */
+      .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+        
+      }
+      
+      /* Do an horizontal flip when you move the mouse over the flip box container */
+      .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+      }
+      
+      /* Position the front and back side */
+      .flip-card-front, .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden; /* Safari */
+        backface-visibility: hidden;
+        
+
+      }
+      
+      /* Style the front side (fallback if image is missing) */
+      .flip-card-front {
+        background-color: #bbb;
+        color: black;
+      }
+      
+      /* Style the back side */
+      .flip-card-back {
+        transform: rotateY(180deg);
+        margin: 0 auto;
+        display:flex;
+        width: 1000px;
+    
+      }
 </style>
 </head>
 <body>
@@ -45,10 +96,19 @@
             </div>
         </nav>
 <!--Navigation Bar END-->
-        <section class="container-fluid bodyContainer vh-100 justify-content-centeralign-items-center">
-        <h1 class="display-1"><br>Lebenslauf (CV)</h1>
-        
+
+<section class="container-fluid bodyContainer vh-100 justify-content-centeralign-items-center">
+    <h1 class="display-1"><br>Lebenslauf (CV)</h1>
+<div class="flip-card">
+    <div class="flip-card-inner ">
+      <div class="flip-card-front">
+        <img src="pictures/pdf img.png" alt="Avatar" style="width:300px;height:300px;">
+      </div>
+      <div class="flip-card-back">
         <iframe src="pictures\bewerbung 2023.pdf" title="CV" height="700" width="1000" id="centerframe"></iframe>
+      </div>
+    </div>
+  </div>
         
         </section>
 <!--Footer-->
