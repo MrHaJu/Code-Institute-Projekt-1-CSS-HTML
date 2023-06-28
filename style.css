@@ -8,6 +8,10 @@ article p    (descendand selector) selects the descendands of the article <artic
 article header p selects only the p elements in the header
 ~ sibling selector   p ~ div selects all  div siblings after the p element   ( div div p div a div )
 */
+
+html {
+    scroll-behavior: smooth;
+}
 :root {
     --mainBGcolor: #a82757;
     --light-blue-green: #E5F9FF;
