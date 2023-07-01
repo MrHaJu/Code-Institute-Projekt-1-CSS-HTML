@@ -38,7 +38,7 @@ html {
 .body {
     font-family: 'Josefin Sans', sans-serif;
     height: 100%;
-    
+    z-index: 2;
     
 }
 
@@ -242,7 +242,15 @@ html {
     
 }
 
+#navbar {
+    z-index: 4;
+}
 
+#footer {
+    z-index: 4;
+    position:sticky;
+
+}
 
 
 
