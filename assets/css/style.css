@@ -299,3 +299,9 @@ html {
         background-position: 0% 0%
     }
 }
+@media  screen and (max-width: 950px) {
+
+    #flipcard {
+        display: none;
+    }
+}
