@@ -11,7 +11,7 @@ This website was created to showcase my skills as an programmer
 
 ## Contents
 
-* [User Experience (UX)](#User Experience (UX))
+* [User Experience (UX)](#User-Experience-(UX))
     * [Initial Discussion](#Initial-Discussion)
     * [User Stories](#User-Stories)
 
@@ -226,6 +226,56 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 ### Known Bugs
 1. There seems to be a bug when resizing from desktop to mobile. The text partially disappears behind the navbar
 2.  The navbar burger icon pushing over the right screenside and disappears on smaller screens
+
+
+
+### Lighthouse
+
+I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.
+
+#### Index Page
+
+lighthouse testing :
+* Desktop:
+
+![Lighthouse Testing for Desktop Index Page - Test ](assets/images/lighthouse-index-pc.png) ~
+
+* Mobile:
+
+![Lighthouse Testing for Mobile Index Page - Test ](assets/images/lighthouse-index-mobile.png)
+
+#### projects Page
+
+lighthouse testing :
+* Desktop:
+
+![Lighthouse Testing for Desktop projects Page - Test ](assets/images/lighthouse-projects-pc.png) ~
+
+* Mobile:
+
+![Lighthouse Testing for Mobile projects Page - Test ](assets/images/lighthouse-projects-mobile.png)
+
+#### cv Page
+
+lighthouse testing :
+* Desktop:
+
+![Lighthouse Testing for Desktop cv Page - Test ](assets/images/lighthouse-cv-pc.png) ~
+
+* Mobile:
+
+![Lighthouse Testing for Mobile cv Page - Test ](assets/images/lighthouse-cv-mobile.png)
+
+#### contact Page
+
+lighthouse testing :
+* Desktop:
+
+![Lighthouse Testing for Desktop contact Page - Test ](assets/images/lighthouse-contact-pc.png) ~
+
+* Mobile:
+
+![Lighthouse Testing for Mobile contact Page - Test ](assets/images/lighthouse-contact-mobile.png)
 
 ### Full Testing
 
