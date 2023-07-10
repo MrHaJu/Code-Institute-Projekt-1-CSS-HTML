@@ -11,95 +11,18 @@
         <!-- Bootstrap CSS CDN link-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">    
-<!-- Embed CSS Style-->
+
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
     
-    .container {
-        width: 320px;
-        margin: 50px auto 0 auto;
-        perspective: 1500px;
-    }
+    
 
-        .carousel {
-        
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        transform-style: preserve-3d; 
-        animation: rotate360 20s infinite forwards linear;
-    }
-
-    .carousel:hover {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        transform-style: preserve-3d; 
-        animation: stop;
-    }
-
-    .carousel__face { 
-        color: rgb(238, 206, 167);
-        font-family: 'Josefin Sans', sans-serif;
-        position: absolute;
-        width: 300px;
-        height: 187px;
-        top: 20px;
-        left: 10px;
-        right: 10px;
-        background-size: cover;
-        box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
-        display: flex;
-    }
-
-        span {
-        margin: auto;
-        font-size: 2rem;
-    }
-
-    .carousel__face:nth-child(1) {
-        background-image: url("images/contact.png");
-        transform: rotateY(  0deg) translateZ(430px); }
-    .carousel__face:nth-child(2) { 
-        background-image: url("");
-        transform: rotateY( 40deg) translateZ(430px); }
-    .carousel__face:nth-child(3) {
-        background-image: url("");
-        transform: rotateY( 80deg) translateZ(430px); }
-    .carousel__face:nth-child(4) {
-        background-image: url("");
-        transform: rotateY(120deg) translateZ(430px); }
-    .carousel__face:nth-child(5) { 
-        background-image: url("");
-        transform: rotateY(160deg) translateZ(430px); }
-    .carousel__face:nth-child(6) { 
-        background-image: url("");
-        transform: rotateY(200deg) translateZ(430px); }
-    .carousel__face:nth-child(7) { 
-        background-image: url("");
-        transform: rotateY(240deg) translateZ(430px); }
-    .carousel__face:nth-child(8) {
-        background-image: url("");
-        transform: rotateY(280deg) translateZ(430px); }
-    .carousel__face:nth-child(9) {
-        background-image: url("");
-        transform: rotateY(320deg) translateZ(430px); }
-
-        @keyframes rotate360 {
-        from {
-            transform: rotateY(0deg);
-        }
-        to {
-            transform: rotateY(-360deg);
-        }
-    }
+    
 </style>
-<!-- Embed CSS Style END-->
-</head>
+        </head>
 <!--?BODY-->
 <body>
     <div class="body">
-<!--!NAVBAR -->
+<!--NAVBAR -->
         <nav id="navbar" class="navbar navbar-expand-lg fixed-top bg-light">
             <div class="container-fluid">
                 <h1 class="navbar-brand">
@@ -120,12 +43,13 @@
                 </div>
             </div>
         </nav>
-<!--!NAVBAR END -->
+<!--NAVBAR END -->
 <!--Page Banner Section-->
 <section class="container-fluid bodyContainer vh-100 justify-content-center align-items-center">
 <div >
 <div id="maintext">
-    <h1 class="display-1 ">   
+    <h1 class="display-1 ">  
+        <br> 
         <br>     
         On this page, you can find a list of <br>my finished and working projects
     </h1>
@@ -134,7 +58,7 @@
     <p class="display-1"><mark>HTML - CSS - JS - Bootstrap</mark>
     </p>
 </div>
-<div class="container"><p class="whitetext">Use Mousewheel to scroll</p>
+<div id="container"><p class="whitetext">Use Mousewheel to scroll</p>
     <div class="carousel">
         <a href="contact.html" target="_blank" class="carousel__face"><span>Project <br>Contact Form</span><img src="assets/images/contact.png" alt="Contact Form" class="rounded img-fluid" ></a>
         <a href="" class="carousel__face"><span>Project2</span></a>
@@ -167,9 +91,7 @@
 <!--SCRIPTS-->
     
     <script src="assets/js/projects2.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/47a36da9be.js" crossorigin="anonymous"></script>
 <!--END of SCRIPTS-->
 </body>

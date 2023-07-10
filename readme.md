@@ -11,7 +11,7 @@ This website was created to showcase my skills as an programmer
 
 ## Contents
 
-* [User Experience (UX)](#User-Experience-(UX))
+* [User Experience (UX)](#User Experience (UX))
     * [Initial Discussion](#Initial-Discussion)
     * [User Stories](#User-Stories)
 
