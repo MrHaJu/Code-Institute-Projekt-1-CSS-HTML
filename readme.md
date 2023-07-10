@@ -3,7 +3,7 @@
 
  # My Portfolio Website
 
- ![View on multiple screens](assets/images/head.png)
+ ![View on multiple screens](assets/images/portfolio.png)
  
  [View MrhaJu on Github Pages](https://mrhaju.github.io/Code-Institute-Projekt-1-CSS-HTML/)
 
