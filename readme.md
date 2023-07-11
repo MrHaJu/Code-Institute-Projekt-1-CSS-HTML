@@ -203,6 +203,7 @@ Please view the [testing.md](testing.md) file for more information on the testin
 * [Font Awesome](https://fontawesome.com/)
 * [Google Fonts](https://fonts.google.com/)
 * [Code from Bito VSC extension to build a scrollable carousel with Java Script](https://marketplace.visualstudio.com/items?itemName=Bito.Bito)
+* [Example readme file by Kera Cudmore](https://github.com/kera-cudmore)
 
 ### Content
 
