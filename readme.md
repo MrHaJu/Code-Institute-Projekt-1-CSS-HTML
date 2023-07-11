@@ -199,7 +199,7 @@ To clone the Code-Institute-Projekt-1-CSS-HTML repository:
 
 ## **Testing**
 
-Please view the [testing.md](#testing) file for more information on the testing undertaken.
+Please view the [testing.md](testing.md) file for more information on the testing undertaken.
 
 - - -
 
