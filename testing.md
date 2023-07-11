@@ -15,7 +15,6 @@
     * [Wave](#wave)
 
 * [MANUAL TESTING](#manual-testing)
-    * [Testing User Stories](#testing-user-stories)
     * [Full Testing](#full-testing)
 
 * [BUGS](#bugs)
