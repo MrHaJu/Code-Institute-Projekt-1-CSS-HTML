@@ -37,26 +37,12 @@ Testing was ongoing throughout the entire build. I utilised Chrome developer too
 
 ### W3C Validator
 
-The most popular HTML validator is [W3C](https://validator.w3.org/). There are two ways to validate the HTML for your first milestone - you can copy the live link for your site page and paste into the validate by URI field, or you can copy all the code for your page and paste this into the validate by direct input field.
-
-#### **URI Input**
-
-If you validate with your sites URL, you can run the validation and then copy the link from the address bar and insert the link here as your proof of validation.
-
-
-#### **Direct Input**
-
-If you validate with the code, you will need to screenshot the validation results and then link the image here.
-
-
 * [Index Page HTML](assets/images/testing/w3c/w3cindex.png)
 * [Projects Page HTML](assets/images/testing/w3c/w3cprojects.png)
 * [CV Page HTML](assets/images/testing/w3c/w3c-cv.png)
 * [Contact Page HTML](assets/images/testing/w3c/w3ccontact.png)
 
 #### **CSS Validation**
-
-CSS Validation can only be done by copying and pasting the CSS file contents into the direct input. Make sure that the checkbox for CSS is selected.
 
 * [style.css CSS](assets/images/testing/w3c/w3ccss.png)
 
@@ -68,8 +54,6 @@ CSS Validation can only be done by copying and pasting the CSS file contents int
 ### Lighthouse
 
 I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.
-
-
 
 lighthouse testing :
 * #### Desktop:
@@ -125,11 +109,11 @@ The following issues were raised during my mid project meeting with my mentor:
 
 Full testing was performed on the following devices, and additional testing for other devices was carried out using developer tools:
 
-iMac 2021, MacBook Pro 14 inch 2021, iPhone 13 Pro, Samsung S20, 25 inch monitor, windows laptop
+Desktop PC Windows 11, Samsung S20 Ultra, 46 inch monitor, 43 inch Ultra Wide 4k monitor, 27 inch monitor, windows 10 17 inch laptop
 
 Each device tested the site using the following browsers:
 
-Google Chrome on Mac and Windows, Safari
+Google Chrome and Microsoft edge 
 
 
 
