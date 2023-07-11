@@ -33,17 +33,7 @@ This website was created to showcase my skills as an programmer
     * [How to Clone](#How-to-Clone)
 
 * [Testing](#Testing)
-  * [W3C Validator](#W3C-Validator)
-  * [Solved Bugs](#Solved-Bugs)
-  * [Known Bugs](#Known-Bugs)
-  * [Testing User Stories](#Testing-User-Stories)
-  * [Lighthouse](#Lighthouse)
-    * [Index Page](#Index-Page)
-    * [Books Page](#Books-Page)
-    * [Contact Us Page](#Contact-Us-Page)
-    * [Thank You Page](#Thank-You-Page)
-  * [Full Testing](#Full-Testing)
-  
+    
 * [Credits](#Credits)
   * [Code Used](#Code-Used)
   * [Content](#Content)
