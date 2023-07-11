@@ -13,9 +13,12 @@
     * [W3C Validator](#w3c-validator)
     * [Lighthouse](#lighthouse)
     * [Wave](#wave)
+    * [jshint](#javascript-validator)
 
 * [MANUAL TESTING](#manual-testing)
     * [Full Testing](#full-testing)
+    * [User Stories](#user-stories)
+    * [Browser Testing](#browser-testing)
 
 * [BUGS](#bugs)
     * [Known Bugs](#known-bugs)
@@ -47,7 +50,14 @@ Testing was ongoing throughout the entire build. I utilised Chrome developer too
 
 ---
 
+### JavaScript Validator
 
+[jshint](https://jshint.com/) was used to validate the JavaScript.
+
+* [contactform.js](documentation/testing/validation/jshint-contact.png)
+* [projects2.js](assets/images/testing/jshint/jshint-projects.png)
+
+- - -
 
 
 ### Lighthouse
@@ -159,6 +169,37 @@ Google Chrome and Microsoft edge
 | Instagram Icon | When clicked you will be redirected to MrHaJu's Instagram page in a new tab | Clicked icon | Profile opened in a new tab | Pass |
 | TikTok Icon Hover | When hover over icon, Icon colour changes | Hovered over Icon | colour changed | Pass |
 | TikTok Icon | When clicked you will be redirected to MrHaJu's Tiktok page in a new tab | Clicked icon | Profile opened in a new tab | Pass |
+
+---
+
+### User Stories
+| Goals | How are they achieved? | Image |
+|---|---|---|
+| `First Time Visitors` |  |  |
+|  |  |  |
+| Understand what the site is for and how to navigate the site. | A description of what the site is is included on the home page. | :--- |
+| Navigate to the projects page and view projects that have already been published | a carousel is integrated on the projects page in which the finished projects are available for selection | :--- |
+| Navigate to the CV page and view the CV | On the CV page is a PDF image that if you hover over it on a desktop pc or laptop it will open the CV as a PDF for viewing. on mobile devices you can click on the PDF image and the CV will be downloaded | :--- |
+| navigate to the Contact page to send a message to the site owner | On the contact page there is a contact form in which you can send your name, email address and a message to my Googlemail address. | :--- |
+|  |  |  |
+|`Returning Visitors`|  |  |
+|  |  |  |
+| Navigate to the projects page and view new projects that have been published | a carousel is integrated on the projects page in which the finished projects are available for selection | :--- |
+| Navigate to the CV page and view the CV | On the CV page is a PDF image that if you hover over it on a desktop pc or laptop it will open the CV as a PDF for viewing. on mobile devices you can click on the PDF image and the CV will be downloaded | :--- |
+| Navigate to the Contact page to send a message to the site owner | On the contact page there is a contact form in which you can send your name, email address and a message to my Googlemail address. | :--- |
+|  |  |  |
+
+---
+
+### Browser Testing
+| Browser | Layout | Functionality |
+| :--- | :--- | :--- |
+| Chrome | Desktop | Works |
+| Chrome | Mobile | Works |
+| Edge | Desktop | Works |
+| Edge | Mobile | Works |
+| Firefox | Desktop | Works |
+| Firefox | Mobile | Works |
 
 ---
 
