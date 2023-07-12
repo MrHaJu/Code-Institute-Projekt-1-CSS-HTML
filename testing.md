@@ -194,12 +194,12 @@ Google Chrome and Microsoft edge
 ### Browser Testing
 | Browser | Layout | Functionality |
 | :--- | :--- | :--- |
-| Chrome | Desktop | Works |
-| Chrome | Mobile | Works |
-| Edge | Desktop | Works |
-| Edge | Mobile | Works |
-| Firefox | Desktop | Works |
-| Firefox | Mobile | Works |
+| Chrome | Desktop | ✔️ |
+| Chrome | Mobile | ✔️ |
+| Edge | Desktop | ✔️ |
+| Edge | Mobile | ✔️ |
+| Firefox | Desktop | ✔️ |
+| Firefox | Mobile | ✔️ |
 
 ---
 
