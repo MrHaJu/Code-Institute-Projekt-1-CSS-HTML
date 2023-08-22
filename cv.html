@@ -50,9 +50,12 @@
       </nav>
 <!--NAVBAR END -->
 <!--Page Banner Section-->
-      <section class="container-fluid bodyContainer vh-100 justify-content-centeralign-items-center"
-      >
-        <h1 id="CV" class="display-1"><br/><br/>Lebenslauf (CV)</h1>
+      <section class="bodyContainer">
+        <h1 id="CV" class="display-1">Lebenslauf (CV)</h1>
+        <h2 class="display-2">You can view and download my CV here.<br>
+          Viewing only works on desktop browsers.<br>
+          The CV appears by hovering over the image.<br>
+          On mobile devices, only the download is available by clicking on the image.</h2>
         <div class="flip-card" id="flipcard">
           <div class="flip-card-inner">
             <div class="flip-card-front">
@@ -63,13 +66,9 @@
               />
             </div>
             <div class="flip-card-back">
-              <iframe
-                src="assets/documents/cv.pdf"
-                title="CV"
-                height="700"
-                width="1000"
-                id="centerframe"
-              ></iframe>
+              <object data="assets/documents/cv.pdf" type="application/pdf" width="1000" height="700">
+                <p>Falls Ihr Browser das PDF nicht anzeigen kann, können Sie es hier herunterladen: <a href="assets/documents/cv.pdf">Download PDF</a></p>
+              </object>
             </div>
           </div>
         </div>
