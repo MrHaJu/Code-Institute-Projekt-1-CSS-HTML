@@ -197,6 +197,9 @@ html {
 .mb-4 {
     padding-top: 2%;
     padding-bottom: 20%;
+    font-weight: bolder!important;
+    text-align: center;
+    color: var(--warm-pink);
 }
 
 #contact-form {
