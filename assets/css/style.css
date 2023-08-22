@@ -24,6 +24,14 @@ html {
     --very-light-color: #FFFFFF;
 }
 
+.info {
+    color: var(--very-light-color);
+    text-align: left;
+    margin-bottom: 5%;
+    font-size: 1rem;
+    padding: 15px;
+}
+
 .nav-link:hover {    
     font-style: italic;
     font-weight: bold;
@@ -43,24 +51,39 @@ html {
 }
 
 .bodyContainer {
-    height: 50vh;
     background-color: rgb(80, 80, 80);
+    overflow: auto;
+    scrollbar-width: none;
+    margin-top: 1%;
+    padding-top: 10%;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
     background:
         radial-gradient(circle at 30% 107%, #ffffff 0%, #c2c2c2 5%, #424242 45%, #242424 60%, #000000 90%),
         radial-gradient(circle at 70% 50%, #e27a7a 0%, #7e4444 45%, #491919 60%, #2c0303 90%);
     background-size: 200% 200%;
     background-blend-mode: darken;
+    animation: CC24Animation 10s ease-in-out infinite;
     -webkit-animation: CC24Animation 10s ease-in-out infinite;
     
 }
 
+.bodyContainer::-webkit-scrollbar {
+    display: none;
+}
 #maintext {
     text-align: center;
     
 }
 
+.text-right {
+    margin: 20%;
+}
+
 /* Display 1 Text*/
 .display-1 {
+    margin-top: 1%;
+    margin-bottom: 2%;    
     color: var(--warm-pink);
     text-shadow: 0 2px 50px var(--very-light-color);
     transition: all 1s ease-in-out;    
@@ -93,6 +116,8 @@ html {
 
 /*Display 2 Text*/
 .display-2 {
+    text-align: center;
+    font-size: 2rem!important;
     color: var(--muted-green);    
     text-shadow: 0 2px 50px var(--very-light-color);
     transition: all 1s ease-in-out;
@@ -150,6 +175,7 @@ html {
 
 .social-networks {
     text-align: center;
+    
 }
 
 .social-networks > li {
@@ -158,15 +184,20 @@ html {
 
 .social-networks i {
     font-size: 160%;
-    margin: 1%;
-    padding: 1%;
-    color: #2f2f2f;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: var(--very-dark-color);
+    transition: color 0.3s;
 }
 
 .social-networks i:hover {
     color: var(--mainBGcolor);
 }
 
+.mb-4 {
+    padding-top: 2%;
+    padding-bottom: 20%;
+}
 
 #contact-form {
     height: 520px;
@@ -258,11 +289,20 @@ html {
 
 #navbar {
     z-index: 4;
+    position:sticky;
 }
 
 #footer {
+    background-color: var(--very-light-color);
+    height: 30px;
+    position: sticky;
     z-index: 4;
-    position:sticky;
+}
+
+#footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #2f2f2f;
 }
 
 .img-fluid {    
@@ -281,12 +321,13 @@ html {
 h1 {
     text-align: center;
 }
+
 .flip-card {
     background-color: transparent;
     width: 300px;
     height: 200px;
     color: #ffffff;
-    perspective: 1000px;
+    perspective: 1500px;
     margin: 0 auto;
 }
 
@@ -308,7 +349,6 @@ h1 {
 /* front and back side position*/
 .flip-card-front,
 .flip-card-back {
-    
     position: absolute;
     width: 100%;
     height: 100%;
@@ -328,6 +368,7 @@ h1 {
     margin: 0 auto;
     display: flex;
     width: 1000px;
+    height: 80vh;
     margin-left: -100%;
 }
 /* CV end */
@@ -343,8 +384,13 @@ h1 {
     position: relative;
     width: 100%;
     height: 100%;
+    margin-bottom: 80%;
     transform-style: preserve-3d; 
     animation: rotate360 20s infinite forwards linear;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .carousel:hover {
@@ -360,46 +406,47 @@ h1 {
     font-family: 'Josefin Sans', sans-serif;
     position: absolute;
     width: 300px;
-    height: 187px;
+    height: 200px;
     top: 20px;
     left: 10px;
     right: 10px;
-    background-size: cover;
-    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
+    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.8);
+    text-align: center;
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
     span {
-    margin: auto;
-    font-size: 2rem;
+    display: block;
+    margin: 10px;
+    font-size: 1rem;
+}
+
+.carousel__face img {
+    width: 100%; 
+    max-height: 100px; 
+    margin-top: 10px; 
+    object-fit: contain;
 }
 
 .carousel__face:nth-child(1) {
-    background-image: url("images/contact.png");
     transform: rotateY(  0deg) translateZ(430px); }
 .carousel__face:nth-child(2) { 
-    background-image: url("");
     transform: rotateY( 40deg) translateZ(430px); }
 .carousel__face:nth-child(3) {
-    background-image: url("");
     transform: rotateY( 80deg) translateZ(430px); }
 .carousel__face:nth-child(4) {
-    background-image: url("");
     transform: rotateY(120deg) translateZ(430px); }
 .carousel__face:nth-child(5) { 
-    background-image: url("");
     transform: rotateY(160deg) translateZ(430px); }
 .carousel__face:nth-child(6) { 
-    background-image: url("");
     transform: rotateY(200deg) translateZ(430px); }
 .carousel__face:nth-child(7) { 
-    background-image: url("");
     transform: rotateY(240deg) translateZ(430px); }
 .carousel__face:nth-child(8) {
-    background-image: url("");
     transform: rotateY(280deg) translateZ(430px); }
 .carousel__face:nth-child(9) {
-    background-image: url("");
     transform: rotateY(320deg) translateZ(430px); }
 
     @keyframes rotate360 {
@@ -410,6 +457,30 @@ h1 {
             transform: rotateY(-360deg);
         }
     }
+
+.cards {
+    width: 100%;
+    
+}
+.cards div {
+    color: var(--very-light-color);
+    background-color: var(--very-dark-color);
+    width: 45%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    margin: 2px;
+    align-items: center;
+    box-sizing: border-box;
+    max-width: 100%;
+    
+    align-items: center;
+}
+
+.cards h2 {
+    font-size: 1rem;
+}
 /* projects end */
 
 @keyframes CC24Animation {
@@ -431,14 +502,45 @@ h1 {
 }
 
 @media  screen and (max-width: 1200px) {
-
+    .bodyContainer{
+        height: 100vh;
+        overflow: auto;
+        padding-top: 2%;
+        margin-bottom: 2%;
+    }
     #flipcard {
+        display: none;
+    }
+    .info {
+        margin-top: 25%;
+    }
+    
+    .carousel {
+        display: none;
+    }
+    #cinf {
         display: none;
     }
 }
 
 @media  screen and (min-width: 1200px) {
     #dlbutton {
+        display: none;
+    }
+
+    .bodyContainer{
+        height: 100vh;
+        overflow: auto;
+        padding-top: 10px;
+        padding-bottom: 2%;
+        margin-bottom: 2%;
+    }
+    .info {
+        margin-bottom: 10%;
+        padding-top: 10%;
+    }
+
+    .cards {
         display: none;
     }
 }
