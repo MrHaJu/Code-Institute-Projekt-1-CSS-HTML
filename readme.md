@@ -105,14 +105,16 @@ The website is comprised of four pages, all are accessible from the navigation m
 * Home Page.
   * A picture of me.
   * A description of what I do.
+  * My journey from my first education to today 
 
 * Projects Page
   * Carousel Section.
-  The carousel shows my done projects.
+    The carousel shows my done projects.
+  * On mobile screens the carousel disappears and switches to cards
   
 
 * CV Page. 
-  * a viewable CV in PDF format.
+  * a viewable CV in PDF format. If you hover over the PDF Image it flips around and shows the CV.
     on Tablet or mobile screens it turns into a download Button.
   
 
