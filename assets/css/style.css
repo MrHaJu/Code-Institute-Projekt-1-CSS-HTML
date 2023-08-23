@@ -208,7 +208,7 @@ html {
     width: 400px;
     background-color: rgba(255, 255, 255, 0.13);
     position: absolute;
-    transform: translate(-52%, -20%);
+    transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
     border-radius: 10px;
@@ -525,6 +525,15 @@ h1 {
     }
     #cinf {
         display: none;
+    }
+    #contact-form {
+        position: absolute;
+        transform: translate(-52%, -10%);
+        top: 40%;
+        left: 50%;
+        padding: 50px 35px;
+        margin-top: 20%;
+        margin: 0 auto;  
     }
 }
 
