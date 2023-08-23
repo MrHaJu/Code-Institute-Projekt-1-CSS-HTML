@@ -101,14 +101,15 @@ The following issues were raised during my mid project meeting with my mentor:
 | :--- | :--- | :--- |
 | 1 | On the Index Page, the Image and Figcaption disappeared behind the navbar. | With Bootstrap order-md-1 and 2, this problem was solved |
 | 2 | On Cv page, when turning the Card, the CV was off center | fixed with display: flex and margin-left: -100% |
+| 3 | The navbar burger icon pushing over the right screenside on projects page and disappears on smaller screens | Hide the Carousel and switched to Cards with flex wrap |
+| 4 | There seems to be a bug when resizing from desktop to mobile. The text partially disappears behind the navbar | adding margin and padding to the sections and divs. remove Bootstrap classes. |
 
 
 ### Known Bugs
 
 | Known Bug No | Bug Issue | Plan to Resolve |
 | :--- | :--- | :--- |
-| 1 | There seems to be a bug when resizing from desktop to mobile. The text partially disappears behind the navbar | adding Linebreaks |
-| 2 | The navbar burger icon pushing over the right screenside on projects page and disappears on smaller screens | :--- |
+
 
 
 
@@ -147,6 +148,7 @@ Google Chrome and Microsoft edge
 | Carousel stop | When hover over Carousel, it stops turning.  | Hovered over carousel | turning stopped | Pass |
 | Carousel scroll | When hover over Carousel, scrolling with Mousewheel scrolls through carousel | Hovered over Carousel, scrolled Mousewheel | Carousel scrolls | Pass |
 | Carousel click | When click on a Projekt, shown in the Caousel it opens a new Page with the Project | clicked on Projekt in Carousel | New Page opens, shows project | Pass |
+| Carousel switch to cards on mobile | When viewing the Page on mobile devices, there are cards instead of the carousel | viewed Page on mobile device | No carousel shown. Cards shown | Pass |
 |  |  |  |  |  |
 | `CV Page` |  |  |  |  |
 | Hover Image | When hovering over the Image on Desktop Screen, it turns 180° and shows the CV | Hovered over Image | Image turns around and showed CV  | Pass |
