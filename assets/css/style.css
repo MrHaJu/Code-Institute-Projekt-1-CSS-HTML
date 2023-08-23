@@ -117,6 +117,7 @@ html {
 /*Display 2 Text*/
 .display-2 {
     text-align: center;
+    padding: 20px;
     font-size: 2rem!important;
     color: var(--muted-green);    
     text-shadow: 0 2px 50px var(--very-light-color);
