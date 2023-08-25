@@ -27,7 +27,7 @@ article header p selects only the p elements in the header
     z-index: 1000;
     top: 0;
     position:fixed;
-    height: 10vh;
+    
 }
 
 .nav-link:hover {    
@@ -203,7 +203,7 @@ article header p selects only the p elements in the header
     height: 10vh;
     position: fixed;
     bottom: 0;
-    z-index: 1000;
+    z-index: 2000;
 }
 
 .social-networks {
@@ -326,8 +326,13 @@ transform: rotateY(320deg) translateZ(430px); }
 }
 
 .cards {
-width: 100%;
-
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
 }
 .cards div {
 color: var(--very-light-color);
@@ -338,11 +343,8 @@ float: left;
 padding: 30px 0 0 10px;
 text-align: center;
 margin: 2px;
-align-items: center;
 box-sizing: border-box;
 max-width: 100%;
-
-align-items: center;
 }
 
 .cards h2 {
@@ -438,10 +440,12 @@ h1 {
     margin-top: 10vh;
 }
 
-.mb-4 {
-    padding-top: 2%;
-    padding-bottom: 20%;
-    font-weight: bolder!important;
+.contactSection {
+    margin: 10px;
+}
+
+.filler {
+    padding: 2%;
     text-align: center;
     color: var(--warm-pink);
 }
@@ -475,8 +479,6 @@ h1 {
 
 #contact-form h1 {
     font-size: 32px;
-    font-weight: bolder;
-    line-height: 42px;
     text-align: center;
 }
 
@@ -561,27 +563,36 @@ h1 {
         padding-top: 2%;
         margin-bottom: 2%;
     }
+
     #flipcard {
         display: none;
     }
+
     .info {
         margin-top: 25%;
     }
-    
+
     .carousel {
         display: none;
     }
+
     #cinf {
         display: none;
     }
+
     #contact-form {
-        position: absolute;
-        transform: translate(-50%, -20%);
+
+        transform: translate(-50%, -35%);
+        max-height: 400px;
         top: 40%;
         left: 50%;
-        padding: 50px 35px;
-        margin-top: 20%;
-        margin: 0 auto;  
+        padding: 20px 35px 10px 35px;
+        margin-top: 10%;
+        margin-bottom: 2%;
+    }
+
+    #contact-form * {
+        margin-top: 0px;
     }
 
     .social-networks i {
@@ -590,6 +601,29 @@ h1 {
         font-size: 120%;
         padding-left: 20px;
         padding-right: 20px;
+    }
+}
+
+@media  screen and (max-height: 700px) {
+    #contact-form {
+        transform: translate(-50%, -20%);
+        max-height: 365px;
+        top: 40%;
+        left: 50%;
+        padding: 5px 5px 5px 5px;
+        margin-top: 10%;
+        margin-bottom: 2%;
+    }
+}
+
+@media  screen and (max-height: 601px) {
+    #contact-form {
+        transform: translate(-50%, -50%);
+        max-height: 365px;
+    }
+
+    #contactmain {
+        margin-top: 2vh;
     }
 
 }
