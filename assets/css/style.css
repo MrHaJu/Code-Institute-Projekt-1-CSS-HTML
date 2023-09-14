@@ -619,9 +619,7 @@ h1 {
     }
 
     .filler h4 {
-        padding-top: 1vh;
         font-size: 1rem!important;
-        text-align: justify;
     }
 
     #contactmain {
@@ -634,7 +632,7 @@ h1 {
         top: 40%;
         left: 50%;
         width: 80%;
-        padding: 5px 5px 5px 5px;
+
         margin-top: 1vh;
         margin-bottom: 2%;
     }
@@ -658,24 +656,32 @@ h1 {
 @media  screen and (max-height: 601px) {
     #contact-form {
         transform: translate(-50%, -50%);
-        max-height: 365px;
+        max-height: 350px;
     }
 
     #contactmain {
-        margin-top: 2vh;
+        margin-top: 0vh;
     }
-
+    .filler {
+        margin: 0vh;
+        padding: 0;
+        
+    }
 }
 
 @media  screen and (max-height: 700px) {
     #contact-form {
         transform: translate(-50%, -20%);
-        max-height: 365px;
-        top: 40%;
+        max-height: 350px;
+        top: 32%;
         left: 50%;
-        padding: 5px 5px 5px 5px;
+        padding-top: 1%;
         margin-top: 1vh;
         margin-bottom: 2%;
+    }
+    .filler h4 {
+        font-size: 0.6rem!important;
+        text-align: center;
     }
 }
 
