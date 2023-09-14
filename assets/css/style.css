@@ -632,7 +632,7 @@ h1 {
         top: 40%;
         left: 50%;
         width: 80%;
-
+        padding: 8px 35px;
         margin-top: 1vh;
         margin-bottom: 2%;
     }
