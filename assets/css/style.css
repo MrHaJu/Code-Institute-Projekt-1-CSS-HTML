@@ -445,7 +445,7 @@ h1 {
 /*Contact Page*/
 
 #contactmain {
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 
 .contactSection {
@@ -598,7 +598,14 @@ h1 {
 
 }
 
-    #cvmain, #maintext {
+#maintext {
+    height: 80vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin-bottom: 1vh;
+}
+
+    #cvmain {
         height: 100vh;
         padding-top: 40px;
         padding-bottom: 2%;
@@ -659,7 +666,7 @@ h1 {
         top: 40%;
         left: 50%;
         padding: 5px 5px 5px 5px;
-        margin-top: 10%;
+        margin-top: 1vh;
         margin-bottom: 2%;
     }
 }
