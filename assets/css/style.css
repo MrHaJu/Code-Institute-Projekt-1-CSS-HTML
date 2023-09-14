@@ -570,10 +570,21 @@ h1 {
         height: 100vh;
         overflow: auto;
         padding-top: 2%;
-        margin-bottom: 2%;
+        padding-bottom: 10%;
+        margin-top: 10%;
+        margin-bottom: 10%;
     }
 
-    #cvmain {
+.display-2 {
+    font-size: 1rem!important;
+}
+
+#context {
+    margin-bottom: 10%;
+
+}
+
+    #cvmain, #maintext {
         height: 100vh;
         padding-top: 40px;
         padding-bottom: 2%;
@@ -584,19 +595,11 @@ h1 {
         margin-bottom: 30%;
     }
 
-    #flipcard {
-        display: none;
-    }
-
     .info {
         margin-top: 25%;
     }
 
-    .carousel {
-        display: none;
-    }
-
-    #cinf {
+    #cinf, #flipcard, .carousel{
         display: none;
     }
 
