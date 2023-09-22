@@ -2,7 +2,7 @@
 
 document.getElementById("contact-form").addEventListener("submit", (event) => {
 
-    event.preventDefault();/*will stop the tag form, from trying to send info over the nettwork, which its default behaviour*/
+    event.preventDefault();/*will stop the tag form, from trying to send info over the network, which its default behaviour*/
 
     /* emailjs.sendForm(serviceID, templateID, templateParams, publicKey); */
     emailjs.sendForm("service_17xvqjl", "template_v96otqf", event.target).then(
